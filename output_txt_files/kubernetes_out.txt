@@ -1,0 +1,15 @@
+<paste log output from Kubernetes-mediated prediction, here>
+$ ./run_kubernetes.sh
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "my-pod" already exists
+default       my-pod-8485589d88-dgtr5            1/1   Running   0     2m32s
+default       pod-5d55bd9d5d-g7kr7               1/1   Running   1     25m
+kube-system   coredns-66bff467f8-njmqp           1/1   Running   1     23h
+kube-system   etcd-minikube                      1/1   Running   1     23h
+kube-system   kube-apiserver-minikube            1/1   Running   1     23h
+kube-system   kube-controller-manager-minikube   1/1   Running   1     23h
+kube-system   kube-proxy-tphqh                   1/1   Running   1     23h
+kube-system   kube-scheduler-minikube            1/1   Running   1     23h
+kube-system   storage-provisioner                1/1   Running   1     23h
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
