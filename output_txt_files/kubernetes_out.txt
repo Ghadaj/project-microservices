@@ -13,3 +13,12 @@ kube-system   kube-scheduler-minikube            1/1   Running   1     23h
 kube-system   storage-provisioner                1/1   Running   1     23h
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   260  100    48  100   212    324   1432 --:--:-- --:--:-- --:--:--  1768{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
